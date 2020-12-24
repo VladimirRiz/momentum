@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/owfont-master/css/owfont-regular.css">
+    <title>Momentum</title>
+</head>
+<body>
+
+
+<main>
+    <time id="time"></time>
+    <p class="date"></p>
+    <h1>
+        <span id="greeting"></span>
+        <span id="name" contenteditable="true"></span>
+    </h1>
+
+
+    <div>
+      <h2>What Is Your Focus For Today?</h2>
+     <h2><span id="focus" contenteditable="true"></span></h2>
+ </div>
+
+    <figure class="quote">
+      <div class="quote__content">
+        <blockquote>
+          You were not born a winner, and you were not born a loser. You are what you make yourself be.
+        </blockquote>
+        <figcaption> 
+          Lou Holtz
+        </figcaption>
+      </div>
+        <button class="change-quotes"></button>
+      </figure>
+
+    <button class="change-background"></button>
+
+   
+
+
+    <div class="weather">
+        <div class="city" contenteditable="true"></div>
+        <i class="weather-icon owf"></i>
+        <div class="temperature"></div>
+        <div class="weather-description"></div>
+       <div class="wind"></div>
+       <div class="humidity"></div>
+    </div>
+  </main>
+
+    
+    <script src="./js/app.js"></script>
+    <script src="./js/background.js"></script>
+    <script src="./js/quotes.js"></script>
+    <script src="./js/weather.js"></script>
+</body>
+</html>
